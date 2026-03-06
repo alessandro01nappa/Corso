@@ -1,0 +1,110 @@
+body {
+  width: 100%; 
+  margin: 0 auto;
+  color: #393d41;
+  background-color: white; 
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+}
+
+/* titoli */
+h1, h2, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1 { font-size: 55px;}
+h2 { font-size: 2.1rem;}
+
+/* HEADER */
+header {
+    background-color: black;
+    text-align: left; 
+    padding: 20px 30px;
+}
+.Epicode.Logo {
+    width: 150px;
+}
+
+/* HERO */
+.hero {
+    padding: 110px 0;
+    background-image: url('../images/banner.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FEATURES */
+.features {
+    padding: 90px 50px;
+}
+
+.features-cont {
+    text-align: left;
+    float: left;
+    width: 440px;
+    padding-top: 40px;
+}
+
+/*FOTO NOTEBOOK*/
+.Notebook {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; 
+    float: left;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+/* SEZIONE ROSSA */
+.card.epicode {
+    background-color: orangered;
+    color: white;
+    width: 100%;      
+    padding: 70px 0;  
+    border: none;
+    text-align: center;
+    margin: 40px 0;   
+}
+
+/* ARTICOLI */
+.cards-section {
+    padding: 60px 20px;
+    overflow: hidden; 
+}
+
+.card {
+    width: 30%; 
+    float: left;
+    margin: 0 1%; 
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+/* BOTTONE */
+.bottone.Arancione {
+    display: inline-block;
+    background-color: #f04c2f;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #25a2c3;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
