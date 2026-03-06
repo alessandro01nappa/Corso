@@ -3,7 +3,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
     background-image: url('../img/sfondo.png');
-    background-repeat: repeat-x;
+    background-attachment: fixed; 
+    background-size: cover;       
+    background-repeat: no-repeat; 
     display: flex;
     justify-content: center;
     margin: 0;

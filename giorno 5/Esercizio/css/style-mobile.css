@@ -1,0 +1,133 @@
+body {
+  width: 450px; 
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  background-color: white;
+  line-height: 1.65;
+  text-align: center; 
+}
+
+
+/* titoli */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+h1 { font-size: 35px; margin-bottom: 20px; }
+h2 { 
+  font-size: 1.6rem; 
+  margin-top: 30px; 
+  margin-bottom: 10px; 
+}
+h3 { font-size: 1.3rem; margin-bottom: 10px; }
+
+
+/* HEADER */
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+.Epicode.Logo {
+    width: 150px;
+    display: inline-block;
+}
+
+
+/* sezione banner */
+.hero {
+    padding: 80px 20px;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hero-content {
+    background: transparent;
+    padding: 0;
+}
+
+
+/* bottone arancione */
+.bottone.Arancione {
+    display: inline-block;
+    background-color: #f04c2f;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.features {
+    padding: 40px 20px;
+}
+.Notebook {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    display: block;
+    margin: 30px auto;
+    object-fit: cover;
+}
+
+
+/* parte rossa */
+.card.epicode {
+    background-color: orangered;
+    color: white;
+    padding: 40px 20px;
+    border: none;
+}
+.card.epicode h2 { color: white; }
+.card.epicode p:nth-of-type(1) {
+    font-style: italic;
+    font-size: 22px;
+    margin: 20px 0;
+}
+.card.epicode p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+
+/* cards articoli */
+.cards-section {
+    padding: 30px 20px;
+}
+.card {
+    margin-bottom: 30px;
+    background-color: white;
+    border: none;
+    overflow: hidden; 
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.card-body {
+    padding: 20px;
+}
+
+
+/* footer finale */
+.footer {
+    background-color: #25a2c3;
+    padding: 40px 20px;
+    color: #c8e7f0;
+}
+footer h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+footer p {
+    margin: 10px 0;
+}
+footer i {
+    color: white;
+    margin-right: 8px;
+}
