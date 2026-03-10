@@ -2,18 +2,15 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-const num1 = 10
-const num2 = 20
+const nu1 = 10
+const nu2 = 20
 
-let ilPiuGrande
+let PiuGrande
 
-if (num1 > num2) {
-  ilPiuGrande = num1
-} else {
-  ilPiuGrande = num2
-}
+if (nu1 > nu2) {PiuGrande = num1}
+else {PiuGrande = num2}
 
-console.log("Il numero più grande è: " + ilPiuGrande)
+console.log("Il numero più grande è:" + PiuGrande)
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
