@@ -16,11 +16,10 @@ console.log("Il numero più grande è:" + PiuGrande)
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-const esercizio = 7
+const x = 7
 
-if (esercizio !== 5) {
-  console.log("not equal")
-}
+if (x !== 5) {
+  console.log("not equal")}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
@@ -29,29 +28,28 @@ if (esercizio !== 5) {
 const numero = 25
 
 if (numero % 5 === 0) {
-  console.log("divisibile per 5")
-}
+  console.log("divisibile per 5")}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-const n1 = 10
-const n2 = 2
+const n1 = 4
+const n2 = 9
 
 if (n1 === 8) {
-  console.log("non è 8")
+  console.log("verificato n1")
 }
 if (n2 === 8) {
-  console.log("non è 8")
+  console.log("verificato n2")
 }
 
 if (n1 + n2 === 8) {
-  console.log("Verificato")
+  console.log("Verificato addizione ")
 }
 
 if (n1 - n2 === 8) {
-  console.log("Verificato")
+  console.log("Verificato sottrazione")
 }
 
 /* ESERCIZIO 5
@@ -60,14 +58,33 @@ if (n1 - n2 === 8) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const totalShoppingCard = 20
+const shippingCost = 10
+
+let total = 0
+if(totalShoppingCard>=50)
+total = totalShoppingCard
+
+total = totalShoppingCard + shippingCost
+
+console.log("l'utente deve pagare", total)
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const totalShoppingCard2 = 20
+const shippingCost2 = 10
+
+const discount = 0.2
+let total2= 0
+if(totalShoppingCard >=50)
+total2 = totalShoppingCard2
+
+total2 = totalShoppingCard2 + shippingCost2
+
+console.log("l'utente deve pagare", total2)
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
