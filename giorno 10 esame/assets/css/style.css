@@ -1,0 +1,179 @@
+/*importo il font nel css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*header sfondo logo*/
+.main-header {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-direction: column; /*serve per metterle in colonna*/
+}
+
+/* Stile per la riga del logo */
+.header-logo {
+    padding: 10px 20px;
+}
+/*dimensione del logo*/
+.header-logo img {
+    height: 40px;
+}
+
+/* Stile per header sotto il logo */
+.header-scritte {
+    background-color: #37475a; /* colore diverso dall'altro */
+    padding: 8px 20px;
+}
+
+.header-scritte ul {
+    display: flex; /* uno di fianco all'altro*/
+    list-style: none; /*se lo togli le scritte hanno i pallini*/
+}
+
+.header-scritte li {
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner-arancione {
+    background-color: orangered;
+    color: white;
+    text-align: center; /* Centra la scritta */
+    font-weight: 700;
+    padding: 10px; /* Spazio interno tra testo e bordo del div */
+    margin: 20px auto; /* 20px di spazio sopra/sotto e 'auto' lo centra */
+    width: 95%; /* occpo l'85% del body*/
+}
+
+.banner-verde { 
+    background-image: url('../images/bg-image.png'); 
+    background-size: contain;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto; 
+    width: 97%; 
+    
+    /*allinemaneto testo*/
+    height: 120px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sezione-prodotti {
+    width: 100%;
+    margin: 20px auto;
+    background-color: white; 
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px; 
+}
+
+.griglia-flex {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.prodotti-header {
+    margin-bottom: 20px; 
+}
+.card-prodotto {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-prodotto img {
+   width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 15px; 
+
+} 
+
+.banner-vr { 
+    background-image: url('../images/img_9.png'); 
+    background-size: cover; 
+    background-position: center;
+
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto; 
+    width: 95%; 
+
+    height: 300px; 
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenuto-banner-vr {
+    color: white; 
+    text-decoration: none; 
+    font-size: 24px; /*dimensione titolo*/
+}
+
+.banner-marshall { 
+    background-image: url('../images/img_10.png'); 
+    background-size: cover; 
+    background-position: center;
+
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto; 
+    width: 95%; 
+
+    height: 300px; 
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenuto-marshall{
+    color: white; 
+    text-decoration: none; 
+    font-size: 24px; /*dimensione titolo*/
+}
+
+.footer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 6px 0;
+}
+.back-to-top a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-logo {
+    background-color: #232f3e; 
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer-logo img {
+    width: 100px; 
+    height: auto;      
+    display: block;
+    margin: 0 auto;    
+}
