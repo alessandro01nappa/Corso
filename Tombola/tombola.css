@@ -11,10 +11,10 @@ body {
     gap: 8px;
     max-width: 700px;
     margin: 20px auto;
-    background: whitesmoke;
+    background: #e74c3c;
     padding: 15px;
     border-radius: 8px ;
-    box-shadow: 0 4px 6px purple;
+    box-shadow: 0 4px 6px #e74c3c;
 }
 
 .cella {
@@ -27,7 +27,7 @@ body {
 
 
 .estratto {
-    background-color: #e74c3c; 
+    background-color: #c0392b; 
     color: white;
     border-color: #c0392b;
 }
