@@ -1,0 +1,52 @@
+body {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+#tabellone-principale {
+    display: grid;
+    grid-template-columns: repeat(10, auto); 
+    gap: 8px;
+    max-width: 700px;
+    margin: 20px auto;
+    background: whitesmoke;
+    padding: 15px;
+    border-radius: 8px ;
+    box-shadow: 0 4px 6px purple;
+}
+
+.cella {
+    border: 1px solid white;
+    padding: 15px 0;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+.estratto {
+    background-color: #e74c3c; 
+    color: white;
+    border-color: #c0392b;
+}
+
+.controlli {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #27ae60; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
