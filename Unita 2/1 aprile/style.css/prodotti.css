@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-/* La singola Card */
+/* singola Card */
 .product-card {
     background-color: #fdf8e6;
     border-radius: 35px; /* Arrotondamento per card piccole */
