@@ -1,0 +1,148 @@
+
+.products-section {
+    padding: 20px 10px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: 'Outfit', sans-serif;
+    color: #4a332d;
+    font-size: 22px; 
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+/* Griglia dei prodotti */
+.products-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;       
+    justify-content: center;
+}
+
+/* La singola Card */
+.product-card {
+    background-color: #fdf8e6;
+    border-radius: 35px; /* Arrotondamento per card piccole */
+    overflow: hidden;
+    width: calc(50% - 5px); 
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img {
+    width: 100%;
+    height: 140px; 
+    object-fit: cover;
+    border-radius: 35px 35px 0 0;
+}
+
+/* Contenitore info */
+.product-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+
+.product-header {
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.product-header h3 {
+    font-family: 'Outfit', sans-serif;
+    color: #4a332d;
+    font-size: 14px; 
+    margin: 0;
+    line-height: 1.2;
+}
+
+.price {
+    font-family: 'Outfit', sans-serif;
+    color: #4a332d;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.description {
+    color: #5d4037;
+    font-size: 11px;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+/* Bottone Add to Cart*/
+.add-to-cart {
+    background-color: #f0e1a1;
+    border: none;
+    padding: 8px 0; 
+    width: 100%;
+    border-radius: 50px;
+    color: #4a332d;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: auto; 
+}
+
+/*STILI DESKTOP*/
+
+@media (min-width: 769px) {
+    .products-section {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .products-grid {
+        gap: 25px; 
+    }
+
+    .product-card {
+        width: calc(25% - 20px); 
+        border-radius: 60px;
+    }
+
+    .product-img {
+        height: 220px; 
+        border-radius: 60px 60px 0 0;
+    }
+
+    .product-info {
+        padding: 20px;
+    }
+
+    .product-header {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .product-header h3 {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .add-to-cart {
+        padding: 12px 30px;
+        width: fit-content; 
+        align-self: center; 
+        font-size: 14px;
+    }
+}
