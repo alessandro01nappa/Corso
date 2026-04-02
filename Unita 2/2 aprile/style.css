@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Layout Lavagna */
+.board {
+    background-color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 20px;
+    gap: 25px;
+    min-height: 100vh;
+}
+
+/* Stile Post-it */
+.post-it {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    font-family: 'Comic Sans MS', cursive;
+    position: relative;
+    cursor: pointer;
+}
+
+.yellow { background-color: #fefabc; transform: rotate(-3deg); }
+.green  { background-color: #bcfec1; transform: rotate(2deg); }
+.blue   { background-color: #bcd0fe; transform: rotate(-1deg); }
+
+.post-it:nth-child(4n+1) { transform: rotate(-3deg); }
+.post-it:nth-child(4n+2) { transform: rotate(2deg); }
+.post-it:nth-child(4n+3) { transform: rotate(-2deg); }
+.post-it:nth-child(4n+4) { transform: rotate(3deg); }
+
+/* Animazione Post-it */
+.post-it {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-it:hover {
+    transform: scale(1.2) rotate(0deg);
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+    z-index: 10;
+}
