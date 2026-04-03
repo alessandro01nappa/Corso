@@ -1,4 +1,4 @@
-/* --- IMPOSTAZIONI GENERALI --- */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #191919;
@@ -11,7 +11,7 @@ body {
     padding: 20px;
 }
 
-/* --- HEADER --- */
+/* HEADER */
 #testata-principale {
     background-color: #ffc017; 
     border-bottom: 1px solid #191919;
