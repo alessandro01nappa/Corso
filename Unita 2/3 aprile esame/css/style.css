@@ -29,6 +29,10 @@ body {
     background-color: white;
 }
 
+#testata-principale.testata-bianca .bottone-nero {
+    background-color: #1a8917; 
+    transition: background-color 0.3s ease; 
+}
 .flex-header {
     display: flex;
     justify-content: space-between;
