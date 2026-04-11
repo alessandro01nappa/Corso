@@ -1,0 +1,120 @@
+/* BASE */
+body {
+    background-color: #141414 !important;
+    padding-top: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: #141414; 
+    transition: background-color 0.4s ease;
+    z-index: 1050;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* SEARCH BAR ANIMATA */
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+.input-search {
+    height: 35px;
+    width: 0px; 
+    border-style: none;
+    padding: 0;
+    font-size: 14px;
+    outline: none;
+    transition: all .5s ease-in-out;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid white;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btn-search {
+    width: 35px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.search-box.active .input-search {
+    width: 200px; 
+    opacity: 1;
+    visibility: visible;
+    padding: 0 10px 0 40px;
+    margin-right: -35px; 
+}
+
+/* ANIMAZIONE CAMPANELLA */
+.notification-bell {
+    display: inline-block; 
+    transition: transform 0.2s;
+}
+
+.position-relative:hover .notification-bell {
+    animation: bell-ring 0.5s both;
+}
+
+@keyframes bell-ring {
+    0%, 100% { transform: rotate(0); }
+    20% { transform: rotate(15deg); }
+    40% { transform: rotate(-15deg); }
+    60% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg); }
+}
+
+/* SLIDER E IMMAGINI */
+.custom-scrollbar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 20px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; 
+}
+
+.row img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.row img:hover {
+    transform: scale(1.08);
+    z-index: 10;
+}
+
+/* FOOTER */
+footer a {
+    text-decoration: none;
+    color: #6c757d !important;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+.social-links a:hover {
+    color: white !important;
+}
