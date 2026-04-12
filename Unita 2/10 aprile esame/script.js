@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnSearch && searchBox) {
         btnSearch.addEventListener('click', () => {
 
-            searchBox.classList.toggle('active');
+            searchBox.classList.toggle('active')
             
             if (searchBox.classList.contains('active')) {
                 inputSearch.focus()
             }
-        });
+        })
     }
-});
+})

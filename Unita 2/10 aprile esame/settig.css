@@ -1,0 +1,103 @@
+.settings-body {
+    background-color: white;
+    color: #3333;
+    padding-top: 100px;
+    display: block;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: #141414 !important;
+    height: 70px;
+    z-index: 1050;
+}
+
+/* SEARCH BAR ANIMATA */
+.search-box {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.input-search {
+    height: 35px;
+    width: 0px; 
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    outline: none;
+    visibility: hidden;
+}
+
+.search-box.active .input-search {
+    width: 200px; 
+    opacity: 1;
+    visibility: visible;
+    padding: 0 10px 0 40px;
+    margin-right: -35px; 
+}
+
+.btn-search {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+
+/* ELEMENTI ACCOUNT */
+main.container {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    color: #757575;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.settings-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.settings-link:hover {
+    text-decoration: underline;
+}
+
+.account-row {
+    border-bottom: 1px solid #ebebeb;
+    padding: 1.5rem 0;
+}
+
+.cancel-btn {
+    background-color: #e6e6e6;
+    color: black;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* ULTRA HD */
+.badge-uhd {
+    border: 1px solid #3333;
+    padding: 2px 5px;
+    font-size: 0.7rem;
+    color: #3333;
+    vertical-align: middle;
+}
+
+/* FOTO PROFILO PICCOLA*/
+
+.avatar-account-small {
+    width: 35px;         
+    height: 35px;         
+    border-radius: 4px;     
+    vertical-align: middle; 
+}
