@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio</title>
+  </head>
+  <body>
+    <h2>Aggiungi un Animale</h2>
+    <form id="formAnimale">
+      <input type="text" id="nomeAnimale" placeholder="Nome Animale" required />
+      <input
+        type="text"
+        id="nomeProprietario"
+        placeholder="Nome Proprietario"
+        required
+      />
+      <input type="text" id="specie" placeholder="Specie (es. Cane)" required />
+      <input type="text" id="razza" placeholder="Razza" required />
+      <button type="submit">Aggiungi Animale</button>
+    </form>
+
+    <h3>Lista Animali Inseriti:</h3>
+    <ul id="listaAnimali"></ul>
+
+    <script src="costruttore.js"></script>
+    <script src="logica.js"></script>
+  </body>
+</html>
