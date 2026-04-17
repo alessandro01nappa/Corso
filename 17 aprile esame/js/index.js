@@ -23,7 +23,7 @@ const createProductCard = (product) => {
   const col = document.createElement("div");
   col.className = "col-12 col-md-6 col-lg-4 col-xl-3";
 
-  // SICUREZZA: Verifica dove l'API ha salvato l'ID
+  // Verifica dove l'API ha salvato l'ID
   const pid = product._id || product.id;
 
   col.innerHTML = `
