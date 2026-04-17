@@ -1,0 +1,68 @@
+/* Sfondo */
+body {
+  background-image: url("./Carpet-Plants.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #b0deef;
+  font-family: sans-serif;
+}
+
+/* Animazione per le Card */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+  border: none !important;
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Immagini Card uniformi */
+.card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Gestione testo troncato */
+.text-truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/*  Navbar */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Alert nel Backoffice */
+#alert-container {
+  position: sticky;
+  top: 20px;
+  z-index: 1050;
+}
+
+/* Spinner personalizzato */
+.spinner-grow {
+  color: #00afb9;
+}
