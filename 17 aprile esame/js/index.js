@@ -69,7 +69,7 @@ const fetchProducts = async () => {
   productContainer.innerHTML = `
         <div class="col-12 text-center my-5 py-5">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status"></div>
-            <p class="mt-3 text-muted fw-light">Caricamento prodotti in corso...</p>
+            <p class="mt-3 text-white fw-light">Caricamento prodotti in corso...</p>
         </div>
     `;
 
